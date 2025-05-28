@@ -6,4 +6,4 @@
 
     Initialissation du système de routage
 
-    Nom de la dernier video en cour ; La customisation de Bootstrap avec Sass
+    installation de bootstrap 29/05/2025
