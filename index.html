@@ -24,7 +24,96 @@
     <title>Document</title>
   </head>
   <body>
-    <header>Le Menu de l'association sdn <i class="bi bi-check-lg"></i></header>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Un bloc(div) qui contien une liste non ordonnée (ul) et le premier de la liste (li) est un lien (a) que l'on nomme Acceuil etc-->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- me-auto signifie marge end la marge de ce blog se situe à la fin (côté droit du bloc) ms-auto marge start au début (côté gauche du blog) -->
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="/">Acceuil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Qui sommes-nous?</a>
+              </li>
+              <li class="nav-item dropdown">
+                <!-- Bouton avant le dropdown  -->
+                <!-- <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a> -->
+
+                <!-- Le dropdown c'est le sous menu  -->
+
+                <!-- <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Maraude</a></li>
+                  <li><a class="dropdown-item" href="#">Préparation de kits</a></li>
+                  <li><a class="dropdown-item" href="#">La Collecte</a></li>
+                  <li><a class="dropdown-item" href="#">Permanence</a></li>
+                  <li><a class="dropdown-item" href="#">Préparation de kits</a></li>
+
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul> -->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nos actions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">contact</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#">Mon compte</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#"
+                  >Connection/Déconnection</a
+                >
+              </li>
+            </ul>
+
+            <!--FORMULAIRE DE RECHERCHE  -->
+
+            <!-- <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+    </header>
     <main id="main-page"></main>
     <footer>Le footer de mon site</footer>
     <script type="module" src="/Router/router.js"></script>
