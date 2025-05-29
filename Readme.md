@@ -7,3 +7,4 @@
     Initialissation du système de routage
 
     installation de bootstrap 29/05/2025
+    Header, footer, bloc hero (sous la barre de navigation) fait
