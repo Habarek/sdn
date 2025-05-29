@@ -115,7 +115,30 @@
       </nav>
     </header>
     <main id="main-page"></main>
-    <footer>Le footer de mon site</footer>
+
+    <!-- bg=background color primary= couleur prédéfinii dans le fichier _custom.scss -->
+    <!--  Rajouter la class footer  pour pourvoir modifier dans le fichier main.scss-->
+    <footer class="bg-primary text-white text-center footer">
+      <!-- la class row est le système de grille de bootstrap -->
+      <div class="row">
+        <!-- toute la largeur = 12 collone il prend donc toute la largeur de la page-->
+        <!-- col-lg-4 = lorque que l'ecran est large le bloc prend la largeur de 4 blocs sur 12 -->
+        <div class="col-12 col-lg-4">
+          <h3 class="text-secondary">Nos Horaires</h3>
+          <p>samedi 19h00 - 21h00 <br />dimanche 10h00 14h00</p>
+        </div>
+        <!-- Les 2 prennent la moitier chacun un a gauche et un a droite -->
+        <div class="col-6 col-lg-4">
+          <p>
+            160 Rue Etienne Dolet 94140<br />
+            Alfortville <br />0988300204
+          </p>
+        </div>
+        <div class="col-6 col-lg-4">
+          <p>lesoucidesnotres1@gmail.com</p>
+        </div>
+      </div>
+    </footer>
     <script type="module" src="/Router/router.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </body>

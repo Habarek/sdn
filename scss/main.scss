@@ -2,3 +2,20 @@
 @import "custom";
 
 // Ce fichier fait appel au fichier _custom.scss qui contient Bootstrap
+
+// Ce fichier css permet de modifier les element soit même
+// ------ Pour avoir le footer en bas de la page------
+html {
+  position: relative;
+  min-height: 100%;
+}
+main {
+  margin-bottom: 250px;
+}
+// La position absolute le laisse rien passer les autres élément son dérrière
+.footer.footer {
+  padding: 15px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
