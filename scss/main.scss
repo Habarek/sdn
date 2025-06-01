@@ -45,3 +45,17 @@ main {
   align-items: center;
   justify-content: center;
 }
+.textimg {
+  display: flex;
+  align-items: center;
+  align-items: center;
+}
+
+.firstimg {
+  width: 200px;
+  height: 300px;
+  object-fit: contain;
+  // margin-left: 80px;
+  padding: 20px;
+  border-radius: 30px;
+}
